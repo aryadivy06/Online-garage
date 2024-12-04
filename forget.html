@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forget password</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    <div class="box"> 
+    <div class="container">
+    <h2>Forget Password</h2> 
+    <form action="/forget_password" method="post">
+        <div class="input-group">
+            <label for="user-name ">Username or Email</label>
+            <input type="text" id="user-name" name="user_email" placeholder="Username or Email" required>
+           </div>
+       
+        <div class="input-group">
+            <label for="new-password">New Password</label>
+            <input type="password" id="new-password" name="new_password"  required>
+        </div>
+        <div class="input-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm_password"  required>
+        </div>
+        <div class="confirm">
+        <a href="login.html">Confirm</a>
+    </div>
+ </form>
+
+</div>
+</div>
+</body>
+</html>

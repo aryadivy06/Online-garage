@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Provider Login</title>
+    <link rel="stylesheet" href="user.css">
+    <meta name="description" content="Login page for service providers to access their accounts and manage their services.">
+</head>
+<style>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.nav ul li {
+    float: left;
+}
+
+.nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    background-color: #111;
+}
+
+.box {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.forget, .register {
+    margin-top: 10px;
+}
+
+.forget a, .register a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forget a:hover, .register a:hover {
+    text-decoration: underline;
+}
+</style>
+<body>
+    <header>
+        <nav class="nav">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="box">
+            <div class="container">
+                <h2>Service Provider Login</h2>
+                <form action="/provider_login" method="post">
+                    <div class="input-group">
+                        <label for="provider-name">Email</label>
+                        <input type="text" id="provider-name" name="provider_name" placeholder="Username or Email" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="provider-password">Password</label>
+                        <input type="password" id="provider-password" name="provider_password" placeholder="Password" required>
+                    </div>
+                    <button type="submit">Login</button>
+                </form>
+                <div class="forget">
+                    <a href="forget.html">Forget password</a>
+                </div>
+                <div class="register">
+                    <a href="register_service_provider.html">Register as new Service Provider</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

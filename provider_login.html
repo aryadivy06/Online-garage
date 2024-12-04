@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Provider Login</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="aboutus.html">About Us</a></li> 
+        </ul>
+</div>
+    <div class="box">
+    <div class="container">
+        <h2>Service Provider Login</h2>
+        <form action="/provider_login" method="post">
+            <div class="input-group">
+                <label for="provider-name">Email</label>
+                <input type="text" id="provider-name" name="provider_name" placeholder="Username or Email" required>
+            </div>
+            <div class="input-group">
+                <label for="provider-password">Password</label>
+                <input type="password" id="provider-password" name="provider_password" placeholder="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <div class="forget">
+            <a href="forget.html">Forget password </a>
+      
+    </div>
+        <div class="register">
+           
+            <a href="register_service_provider.html">Register as new Service Provider</a>
+         </div>
+    </div>
+</div>
+</body>
+</html>

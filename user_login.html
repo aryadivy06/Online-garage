@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="aboutus.html">About Us</a></li> 
+        </ul>
+</div>
+    <div class="box">
+    <div class="container">
+        <h2>User Login</h2>
+        <form action="/user_login" method="post">
+            <div class="input-group">
+                <label for="user-name ">Username or Email</label>
+                <input type="text" id="user-name" name="user_name" placeholder="Username or Email" required>
+               </div>
+           
+            <div class="input-group">
+                <label for="user-password">Password</label>
+                <input type="password" id="user-password" name="user_password" placeholder="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <div class="forget">
+            <a href="forget.html">Forget password </a>
+      
+    </div>
+        <div class="register">
+           
+       <a href="register_user.html">Register as new user</a>
+    </div>
+    </div>
+</div>
+</body>
+</html>

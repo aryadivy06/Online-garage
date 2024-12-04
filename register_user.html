@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register as New User</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="aboutus.html">About Us</a></li> 
+        </ul>
+</div>
+<form action="/post" method="post">
+     <div class="box m"> 
+    <div class="container">
+        <h2>Register as new user</h2>
+        
+            <div class="input-group">
+                <label for="user-name ">Name</label>
+                <input type="text" id="user-name" name="user_name" placeholder="Name"  required>
+            </div>
+            <div class="input-group">
+                <label for="phone_No">Mobile No.</label>
+                <input type="number" id="phone_No" name="phone_No" placeholder="Mobile Number" required>
+            </div>
+
+            <div class="input-group">
+                <label for="user-email ">Email</label>
+                <input type="email" id="user-email" name="user_email" placeholder="Email" required>
+            </div>
+            <div class="input-group">
+            <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Username" autocomplete="username" required>
+            </div>
+           
+            <div class="input-group">
+                <label for="create-password">Create Password</label>
+                <input type="password" id="create-password" name="user_password" autocomplete="new-password"required>
+            </div>
+            <div class="input-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm_password" autocomplete="new-password" required>
+        </div>
+        <div class=" terms">
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to the <a href="termcondition.html">Terms and Conditions</a></label>
+    </div>
+    <div class="but">
+    <button type="submit">Register</button>   
+</div>
+</form>
+        <div class="register">
+           
+      <span>Already a user?</span><a href="user_login.html"> Login</a>
+    </div>
+    </div>
+</div>
+<script type="module" src="register_user.js"></script>
+</body>
+</html>

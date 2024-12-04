@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    height: 100vh;
+    margin: 0;
+}
+.box{
+  
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.m{
+    padding-top:26px ;
+    position: fixed;
+}
+.confirm{
+    border:none;
+    background-color:  #007bff;
+    padding:5px;
+    border-radius:4px ;
+}
+.confirm a{
+    color: white;
+text-decoration: none;
+}
+
+.nav{
+    background-color: white;
+    margin:0px;
+    padding:0px;
+
+    width:100vw;
+    position:fixed; 
+   
+
+}
+
+.nav ul{
+    display:flex;
+    justify-content: space-around;
+}
+.nav ul li{
+    list-style: none;
+}
+
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 350px;
+    text-align: center;
+    
+}
+.terms { display: flex;
+    margin-bottom: 5px;
+     align-items: center; }
+.register {
+    margin:15px;
+}
+.forget {
+    margin:15px;
+}
+a:link {
+    text-decoration: none;
+    color:blue;
+  }
+  
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 13px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+a:hover{
+    color:green;
+  }
