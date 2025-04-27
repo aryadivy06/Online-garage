@@ -25,13 +25,14 @@ Built using HTML, CSS, and JavaScript, this project provides an easy and user-fr
 <b>Project Structure</b>
 <br>
 Online-garage/
-├── img/                  # Images used in the project
-├── node_modules/         # Node dependencies (if extended with Node.js)
-├── ER Diagram.jpg        # Entity Relationship Diagram
-├── HTML files            # Pages like login, register, services, terms
-├── CSS files             # Styling for each page
-├── JS files              # Scripts for registration and services
-├── package.json          # Project metadata
+├── img/                  # Images used in the project<br>
+├── node_modules/         # Node dependencies (if extended with Node.js)<br>
+├── ER Diagram.jpg        # Entity Relationship Diagram<br>
+├── HTML files            # Pages like login, register, services, terms<br>
+├── CSS files             # Styling for each page<br>
+├── JS files              # Scripts for registration and services<br>
+├── package.json          # Project metadata<br>
+<br>
 <br>
 <b>How to Run Locally</b>
 <ol>
