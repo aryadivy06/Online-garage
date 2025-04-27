@@ -49,8 +49,6 @@ Online-garage/
  <li>Add a backend server (Node.js / Flask / Django)</li>
  <li>Online payment gateway integration</li>
 <li>SMS/email notification system</li>
-
-
-
-
 </ul>
+<br>
+<b>Author:</b> Divya Arya
