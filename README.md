@@ -1,9 +1,7 @@
 <b>Description : </b> 
-<br>
 <i>Online Garage is a web platform where users can register and book vehicle services, and service providers can offer their services online.
 <br>
 Built using HTML, CSS, and JavaScript, this project provides an easy and user-friendly interface for users and service providers.</i>
-<br>
 <br>
 <b> Features: </b>
 <ul>
@@ -16,14 +14,12 @@ Built using HTML, CSS, and JavaScript, this project provides an easy and user-fr
   <li>Responsive Navbar and UI</li>
 </ul>
 <br>
-<br>
 <b>Tech Stack</b>
 <ul>
   <li><b>Frontend:</b> HTML, CSS, JavaScript</li>
   <li><b>Backend:</b> MongoDB for data collection and other part not included yet — purely frontend project currently </li>
   <li><b>Design:</b>Responsive layouts with custom CSS</li>
 </ul>
-<br>
 <br>
 <b>Project Structure</b>
 <br>
@@ -35,7 +31,6 @@ Online-garage/
 ├── CSS files             # Styling for each page
 ├── JS files              # Scripts for registration and services
 ├── package.json          # Project metadata
-<br>
 <br>
 <b>How to Run Locally</b>
 <ol>
